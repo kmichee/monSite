@@ -2,48 +2,82 @@
 <html lang="fr">
 
 <head>
+    <!-- Métadonnées : encodage, titre, description, etc. -->
     <meta charset="UTF-8">
-    <title>Mon premier site Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exemple de page HTML avec toutes les balises requises">
+    <title>Mon site web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Bienvenue sur ma page</h1>
-    <h2>Présentation</h2>
-    <p>Je suis un enseignant</p>
-    <a href="https://www.collegeahuntsic.qc.ca/">Visiter le college</a>
-    <div>
-        <h2>Liste du matériel réquis</h2>
-    <ol>
-        <li>Ordinateur</li>
-        <li>Disque dur</li>
-    </ol>    
-    </div>
-    <h2>Conseils</h2>
-    <ul>
-        <li>Bien dormir</li>
-        <li>Être concentré</li>
-    </ul>
-    <p>Merci les amis. <br>Ce fut un plaisir de partager 
-       <span style="color: red;">ces moments avec vous</span> .</p>
-    <hr>
-    <p>Il faut dégager vos voitures pour permettre le déneigement</p>
-    <table border="1">
-        <tr>
-            <th>Nom</th>
-            <th>Âge</th>
-            <th>Profession</th>
-        </tr>
-        <tr>
-            <td>Michée</td>
-            <td>50</td>
-            <td>Enseignant</td>
-        </tr>
-        <tr>
-            <td>Marie</td>
-            <td>30</td>
-            <td>Étudiante</td>
-        </tr>
-    </table>
+
+    <!-- En-tête principal -->
+    <header>
+        <h1>Bienvenue sur mon site web</h1>
+    </header>
+
+    <!-- Barre de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main>
+        <section id="home">
+            <h2>Accueil</h2>
+            <p>Bienvenue sur mon site web ! Ceci est un exemple de page HTML avec une structure complète.</p>
+        </section>
+
+        <section id="about">
+            <h2>À propos</h2>
+            <p>Ce site est un exemple pour illustrer les bases de la structure d'une page HTML.</p>
+            <p>Voici quelques points intéressants à propos de cette page :</p>
+            <ul>
+                <li>Utilisation de balises HTML standard</li>
+                <li>Structure de page avec header, nav, main et footer</li>
+                <li>Exemples de listes (ordonnée et non ordonnée)</li>
+            </ul>
+        </section>
+
+        <section id="services">
+            <h2>Nos Services</h2>
+            <p>Nous proposons les services suivants :</p>
+            <ol>
+                <li>Conception de sites web</li>
+                <li>Développement d'applications</li>
+                <li>Consulting et formation</li>
+            </ol>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Pour nous contacter, envoyez un e-mail à <a href="mailto:contact@example.com">contact@example.com</a>.</p>
+            <p>Ou suivez-nous sur les réseaux sociaux :</p>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Galerie</h2>
+            <p>Voici une image d'exemple :</p>
+            <img src="https://placehold.jp/150x150.png" alt="Exemple d'image" width="150" height="150">
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Mon Site Web. Tous droits réservés.</p>
+    </footer>
+
 </body>
 
 </html>
